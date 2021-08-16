@@ -1,0 +1,144 @@
+
+/*游戏的界面*/
+#game-face{
+	background: url("../images/game/game-face.jpg") no-repeat top center;
+	background-size: 800px 720px;
+	width: 800px;
+	height: 720px;
+	margin:auto;
+	position: relative; 
+}
+.game-btn{
+	width: 200px;
+	position: absolute;
+	left: 330px;
+	top: 540px;
+}
+.btn-style{
+	outline: none;
+	opacity: 0.8;
+	display: block;
+	width: 150px;
+	height: 32px;
+	background-color: #c0c0c0;
+	border: 1px solid #a0a0a0;
+	border-radius: 32px;
+	margin:5px 0;
+}
+.btn-style:hover{
+	background-color: #ff8c00;
+}
+/*游戏内容*/
+.virus-wrap{
+	display: none;
+	position: relative;
+	width: 800px;
+	height: 720px;
+	margin: auto;
+	overflow: hidden;
+}
+.bgmap{
+	background: url("../images/game/back.jpg") no-repeat top center;
+	background-size: 800px 720px;
+	position: absolute;
+	width: 800px;
+	height: 720px;
+	left: 50%;
+	margin-left: -400px;
+}
+#myplane{
+	position: absolute;
+	top: 600px;
+	left: 50%;
+	margin-left: -30px;
+	width: 60px;
+	height: 70px;
+}
+.virus-details{
+	position: absolute;
+	color: red;
+	font-size: 22px;
+	font-weight: bold;
+	max-width: 150px;
+	height: 32px;
+	line-height: 32px;
+	display: inline-block;
+}
+#score{
+	left: 20px;
+	top:20px;
+}
+#life-time{
+	left:170px;
+	top:20px;
+	max-width: 250px;
+}
+#life{
+	display: inline-block;
+	position: absolute;
+	z-index: 30;
+	top: 60px;
+	left: 20px;
+}
+.life-plane{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 5px;
+}
+#boss-property{
+	display: none;
+	position: absolute;
+	left: 450px;
+	top:7px;
+	color: #fff;
+	z-index: 100;
+}
+#boss-life{
+	display: inline-block;
+	height: 20px;
+	border:2px solid red;
+	width: 200px;
+}
+#boss-name{
+	display: inline-block;
+	max-width: 100px;
+}
+
+#blood{
+	display: inline-block;
+	height: 20px;
+	text-align: center;
+	background-color: red;
+	width: 100%;
+}
+#boss-img{
+	vertical-align: bottom;
+}
+#pause{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	width: 100px;
+	height: 32px;
+	text-align: center;
+	outline:none;
+	z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

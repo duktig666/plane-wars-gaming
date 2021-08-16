@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>消灭病毒</title>
+	<meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/virus.css"/>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/virus.js"></script>
+</head>
+<body>
+	<section>
+		<div id="game-face">
+			<div class="game-btn">
+				<input type="button" value="开始游戏" id="btn-start" class="btn-style">
+				<input type="button" value="关于游戏" id="btn-about" class="btn-style">
+				<input type="button" value="设置" id="btn-set" class="btn-style">
+			</div>
+		</div>
+		<div class="virus-wrap" id="map">
+			<div class="bgmap"></div>
+			<div class="bgmap"></div>
+			<span id="score" class="virus-details">分数：0</span>
+			<span id="life-time" class="virus-details">时间：</span>
+			<div id="life">
+				<img src="../images/game/myplane.png" class="life-plane">
+				<img src="../images/game/myplane.png" class="life-plane">
+				<img src="../images/game/myplane.png" class="life-plane">
+			</div>
+			<div id="boss-property">
+				<span id="boss-name">boss名字</span>
+				<div id="boss-life">
+					<div id="blood">血量</div>
+				</div>
+				<img src="" alt="boss" width="40" height="40" id="boss-img">
+			</div>
+			<audio src="../audio/back-music.mp3" loop="loop" id="back-music"></audio>
+			<audio src="../audio/boss-shouter-music.mp3" id="boss-shouter-music"></audio>
+			<audio src="../audio/game-over-music.mp3" id="game-over-music"></audio>
+			<input type="button" id="pause" value="暂停游戏">
+		</div>
+	</section>
+</body>
+</html>
