@@ -17,7 +17,7 @@
 
 ### 部分游戏截图
 
-![飞机大战部分截图](https://gitee.com/koala010/typora/raw/master/img/20210816143825.png)
+![飞机大战部分截图](https://gitee.com/koala010/typora/raw/master/img/20210816155133.png)
 
 ### Buff说明
 
