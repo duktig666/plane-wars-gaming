@@ -17,7 +17,7 @@
 
 ### 部分游戏截图
 
-![飞机大战部分截图](https://gitee.com/koala010/typora/raw/master/img/20210816155133.png)
+<img src="https://gitee.com/koala010/typora/raw/master/img/20210816155133.png" alt="飞机大战部分截图" style="zoom:50%;" />
 
 ### Buff说明
 
@@ -51,7 +51,7 @@ Boss1——黄金狮王
 - 每出现一次血量+20
 - 每出现一次，一次发射子弹数+1
 
-![黄金狮王](https://gitee.com/koala010/typora/raw/master/img/20210816145532.png)
+<img src="https://gitee.com/koala010/typora/raw/master/img/20210816145532.png" alt="黄金狮王" style="zoom:50%;" />
 
 
 
