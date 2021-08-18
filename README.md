@@ -19,7 +19,7 @@
 
 
 
-![飞机大战部分截图](https://cos.duktig.cn/typora/20210818100031.png)
+![飞机大战部分截图](https://cos.duktig.cn/typora/20210818100730.png)
 
 ### Buff说明
 
@@ -53,7 +53,7 @@ Boss1——黄金狮王
 - 每出现一次血量+20
 - 每出现一次，一次发射子弹数+1
 
-![黄金狮王](https://cos.duktig.cn/typora/20210818100130.png)
+![黄金狮王](https://cos.duktig.cn/typora/20210818100647.png)
 
 
 
